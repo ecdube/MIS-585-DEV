@@ -1,0 +1,83 @@
+body{
+    background-color: antiquewhite;
+}
+.header{
+    background-color: rgb(250, 219, 182);
+    color: rgb(68, 41, 26);
+    padding: 1em;
+    margin: 1em;
+    font-family: Louis George Cafe;
+}
+.header h1{
+    font-family: Lemon Tuesday;
+    width: 30%;
+    text-align: center;
+    font-size: 3em;
+}
+.header img{
+    width: 35%;
+    height: 20vh;
+    object-fit: cover;
+}
+.header.button{
+    background-color: rgb(235, 194, 144);
+    padding-inline: 6vw;
+    margin-inline: 0.5vw;
+    font-family: Louis George Cafe Bold;
+    font-size: 1.2em;
+}
+.main-panel-text{
+    color: rgb(68, 41, 26);
+    text-align: center;
+    padding: 1em;
+    font-family: Louis George Cafe;
+    width: 40%;
+    font-size: 1.1em;
+}
+.main-panel-text h1, h2{
+    font-family: Louis George Cafe Bold;
+}
+.main-panel-text li{
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+}
+.main-panel-text p{
+    line-height: 1.5em;
+}
+.main-panel-img{
+    width: 55%;
+}
+.main-panel-img img{
+    width: 100%;
+    object-fit: cover;
+}
+.footer{
+    background-color: rgb(250, 219, 182);
+    color: rgb(68, 41, 26);
+    padding: 1em;
+    margin: 1em;
+    font-family: Louis George Cafe;
+    text-align: center;
+}
+.flexer-buttons{
+    display: flex;
+    justify-content: center;
+}
+.flexer-main-panel{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 219, 182);
+    margin: 1em;
+}
+@font-face {
+    font-family: Lemon Tuesday;
+    src: url(Lemon\ Tuesday.otf);
+}
+@font-face {
+    font-family: Louis George Cafe;
+    src: url(Louis\ George\ Cafe.ttf);
+}
+@font-face {
+    font-family: Louis George Cafe Bold;
+    src: url(Louis\ George\ Cafe\ Bold.ttf);
+}
