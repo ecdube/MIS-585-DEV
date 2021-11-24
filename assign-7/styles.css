@@ -1,0 +1,25 @@
+body{
+    font-family: LGC;
+}
+body h1{
+    font-family: LGC-Bold;
+}
+.navbar-brand{
+    font-family: Lemon Tuesday;
+    font-size: 2em;
+}
+.nav-item{
+    font-family: LGC-Bold;
+}
+@font-face {
+    font-family: Lemon Tuesday;
+    src: url(Lemon\ Tuesday.otf);
+}
+@font-face {
+    font-family: LGC;
+    src: url(Louis\ George\ Cafe.ttf);
+}
+@font-face {
+    font-family: LGC-Bold;
+    src: url(Louis\ George\ Cafe\ Bold.ttf);
+}
